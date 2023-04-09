@@ -20,7 +20,7 @@ cat << EOF >config.json
     },
     "inbounds":[
         {
-            "port":443,
+            "port":$PORT,
             "protocol":"vless",
             "settings":{
                 "clients":[
